@@ -12,7 +12,7 @@ public class StackArray {
 		top = -1;								// firstly stack is empty
 	}
 //----------------------------------------------------------------------------------	
-	public void push(char sym) {				// put elem in the stack
+	public void push(char sym) {				// put elem on the top of stack
 		stackArray[++top] = sym;				// increment top, insert elem
 	}
 //----------------------------------------------------------------------------------
